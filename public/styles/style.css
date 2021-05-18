@@ -1,0 +1,132 @@
+p {
+    max-width: 50em;
+}
+
+h2 {
+   font-family: Verdana, Geneva, Tahoma, sans-serif; 
+   font-weight: 100;
+   font-size: 3em;
+   margin: 0.1em 0em;
+}
+
+a {
+    color: white;
+    background-color: gray;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+    padding: 0.5em;
+}
+
+a:hover {
+    background-color: rgb(167, 167, 167);
+}
+
+#text-wrapper {
+    margin-left: 10%
+}
+
+#postComment {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    background-color: white;
+}
+
+
+
+#userConfig {
+    border-radius: 10px;
+    border: 1px solid black; 
+    text-align: center;
+    padding: 1em;
+    position: absolute;
+    min-width: 20em;
+    top: 5em;
+    left: 40%;
+    box-shadow: 10px 5px 20px rgb(138, 138, 138);
+    background-color: white;
+    z-index: 9;
+}
+
+#userConfig div {
+    margin: auto;
+    margin-bottom: 0.5em;
+}
+
+#userConfig button {
+    margin: auto;
+}
+
+#userConfig label {
+    margin-left: 0.5em;
+}
+
+#userName {
+    margin: auto;
+    margin-bottom: 0.5em;
+}
+
+.invisible {
+   visibility: hidden;
+}
+
+.markedParagraph {
+    position: relative;
+}
+
+.commentCount {
+    position: absolute;
+    color: white;
+    background-color: brown;
+    border-radius: 50%;
+    width: 1em;
+    height: 1em;
+    left: 50em;
+    top: 0em;
+    text-align: center;
+    z-index: 7;
+    cursor: pointer;
+}
+
+.commentDisplay {
+    padding: 0.5em 0.5em 1.5em 1.2em;
+    min-width: 7em;
+    position: absolute;
+    background-color: gainsboro;
+    left: 51em;
+    top: 0em;
+    border-radius: 10px;
+    z-index: 8;
+}
+
+.commentBody {
+    font-size: 0.8em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.commentAuthor {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.commentNav {
+    position: relative;
+    margin-bottom: -0.5em;
+    top: 0.75em; 
+}
+
+.nextComment {
+    position: absolute;
+    right: 0em;
+    bottom: 0em;
+    cursor: pointer;
+}
+
+.previousComment {
+    position: absolute;
+    left: 0em;
+    bottom: 0em;
+    cursor: pointer;
+}
